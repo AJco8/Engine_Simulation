@@ -32,6 +32,6 @@ This format can easily be converted into a Pandas DataFrame object simply by inp
 ## Verification
 Currently having difficulty finding publicly available rocket engine test telemetry data. Will add comparisons when I find test cases to.
 
-
 ## Future Improvements
-* 
+* Add a heat transfer coefficient of the material so the chamber is not entirely adiabatic, making it closer to real systems.
+* Varify output by comparing it to real engine test data. 

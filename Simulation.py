@@ -31,7 +31,6 @@ def gas_cd(gas:ct.Solution):
     return sqrt(R * gas.T / gamma)*((gamma + 1.0) / 2.0)**(gamma + 1)/(2*(gamma - 1))
 
 #%% Simulation    
-#TODO add heat transfer coefficient of material
 class Sim:
     def __init__(self, dm, MR, volume, throat_area, fuel, oxidizer, atm=None, T_0=1, clone=False, mech="gri30.yaml"):
 
